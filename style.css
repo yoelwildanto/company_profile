@@ -123,6 +123,22 @@ header.sticky .nav-bar{
     color: var(--second-color);
 }
 
+.title-2{
+    margin-bottom: -50px;
+    transform: translateY(0px);
+}
+
+.title-2::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    right: 0;
+    left: 30px;
+    bottom: 0;
+    top: 30px;
+    background: var(--second-color);
+}
 .home{
     position: relative;
     max-width: 1250px;
@@ -193,6 +209,7 @@ header.sticky .nav-bar{
 .banner-1{
     width: 100%;
     height: 500px;
+    margin: 5em 0px;
 }
 .animated-text h3:nth-child(1){
     animation: text-move 12s infinite;
@@ -307,7 +324,7 @@ header.sticky .nav-bar{
     font-size: 2.5em;
     font-weight: 700;
     transform: translateY(-80px);
-    margin-top: px;
+    /* margin-top: px; */
 }
 
 .section-title-02::before{
@@ -969,8 +986,29 @@ transition: .3s ease;
     /* max-height: 100vh; */
     margin-left: auto;
     margin-right: auto;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 0rem;
     flex-direction: column;
+}
+
+.title-2{
+    margin-bottom: -50px;
+}
+
+.title-02::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    right: 0;
+    bottom: 0;
+    background: var(--second-color);
+}
+
+.banner-1{
+    width: 100%;
+    /* height: 500px; */
+    margin: 0px 0px;
+    object-fit: scale-down;
 }
 .home .home-container{
     display: flex;
