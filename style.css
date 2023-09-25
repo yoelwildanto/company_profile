@@ -2,7 +2,7 @@
 
 :root{
     --first-color:#0e2431;
-    --second-color:rgb(31,178,90);
+    --second-color:#174257;
     --third-color:#777;
     --yellow-color: rgb(255,222,0);
     --red-color: rgb(237,23,79);
@@ -181,6 +181,11 @@ header.sticky .nav-bar{
     line-height: 80px;
     letter-spacing: 1px;
     
+}
+
+.logo{
+    width: 200px;
+    padding: 10px 20px 0px 0px;
 }
 
 .animated-text h3:nth-child(1){
